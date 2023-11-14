@@ -3,7 +3,7 @@ function component(elementNode, attributes, children) {
   for (let key in attributes) {
     elementStr += `${key}="${attributes[key]}"`;
   }
-  elementStr += `>`;
+  elementStr += '>';
   if (children) {
     children.forEach((child) => {
       if (typeof child === 'string') {
