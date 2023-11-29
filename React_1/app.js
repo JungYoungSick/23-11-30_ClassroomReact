@@ -63,4 +63,6 @@ let test = component('div', { style: 'color:blue;' }, [
 ]);
 console.log(test)
 
+//! 내가 이해한 것으론 매개변수엔 데이터가 필요하며, 그 데이터는 conponent의 값을 사용하여 만들어졌다.
+
 
